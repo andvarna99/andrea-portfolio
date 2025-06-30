@@ -4,19 +4,13 @@ import './App.css';
 import { Container, Row, Col, Navbar, Nav, Button, Modal } from 'react-bootstrap';
 import { FaReact, FaDatabase, FaCloud, FaGithub, FaLinkedin, FaEnvelope, FaCode, FaServer, FaMobile, FaExternalLinkAlt } from 'react-icons/fa';
 
-// Type assertion helper for React Icons compatibility
 const IconWrapper = ({ Icon, className }: { Icon: any; className?: string }) => (
   <Icon className={className} />
 );
 
 const App: React.FC = () => {
-
-  
-  // Modal state
   const [showModal, setShowModal] = useState(false);
   const [selectedProject, setSelectedProject] = useState<number | null>(null);
-
-  // Project data with detailed information
   const projects = [
     {
       id: 1,
@@ -150,7 +144,6 @@ const App: React.FC = () => {
     }
   ];
 
-  // Modal handlers
   const openModal = (projectId: number) => {
     setSelectedProject(projectId);
     setShowModal(true);
@@ -167,7 +160,6 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      {/* Navigation */}
       <Navbar expand="lg" className="navbar-custom fixed-top">
         <Container>
           <Navbar.Brand href="#home" className="navbar-brand">
@@ -185,7 +177,6 @@ const App: React.FC = () => {
         </Container>
       </Navbar>
 
-      {/* Hero Section */}
       <section id="home" className="hero-section">
         <Container>
           <Row className="align-items-center min-vh-100">
@@ -221,7 +212,6 @@ const App: React.FC = () => {
         </Container>
       </section>
 
-      {/* About Section */}
       <section id="about" className="section-padding bg-white">
         <Container>
           <Row>
@@ -244,7 +234,6 @@ const App: React.FC = () => {
         </Container>
       </section>
 
-      {/* Skills Section */}
       <section id="skills" className="section-padding" style={{ background: 'var(--gray-50)' }}>
         <Container>
           <h2 className="section-title">Technical Skills</h2>
@@ -321,7 +310,6 @@ const App: React.FC = () => {
         </Container>
       </section>
 
-      {/* Projects Section */}
       <section id="projects" className="section-padding bg-white">
         <Container>
           <h2 className="section-title">Featured Work Projects</h2>
@@ -478,7 +466,6 @@ const App: React.FC = () => {
         </Container>
       </section>
 
-      {/* Contact Section */}
       <section id="contact" className="contact-section">
         <Container>
           <Row>
@@ -505,7 +492,6 @@ const App: React.FC = () => {
         </Container>
       </section>
 
-      {/* Footer */}
       <footer className="footer-custom text-center">
         <Container>
           <p>&copy; 2025 Andrea Varnado. Crafted with care.</p>
@@ -513,7 +499,6 @@ const App: React.FC = () => {
         </Container>
       </footer>
 
-      {/* Project Details Modal */}
       <Modal 
         show={showModal} 
         onHide={closeModal} 
@@ -529,13 +514,11 @@ const App: React.FC = () => {
         <Modal.Body className="modal-body-custom">
           {currentProject && (
             <>
-              {/* Project Overview */}
               <div className="mb-4">
                 <h5 className="section-subtitle">Project Overview</h5>
                 <p>{currentProject.shortDesc}</p>
               </div>
 
-              {/* Technology Stack */}
               <div className="mb-4">
                 <h5 className="section-subtitle">Technology Stack</h5>
                 <div className="mb-3">
@@ -547,7 +530,6 @@ const App: React.FC = () => {
                 </div>
               </div>
 
-              {/* Technical Breakdown */}
               <div className="mb-4">
                 <h5 className="section-subtitle">Technical Implementation</h5>
                 {Object.entries(currentProject.techBreakdown).map(([category, description]) => (
@@ -558,7 +540,6 @@ const App: React.FC = () => {
                 ))}
               </div>
 
-              {/* Challenges & Solutions */}
               <div className="mb-4">
                 <h5 className="section-subtitle">Key Challenges & Solutions</h5>
                 {currentProject.challenges.map((challenge, index) => (
@@ -575,7 +556,6 @@ const App: React.FC = () => {
                 ))}
               </div>
 
-              {/* Results */}
               <div className="mb-4">
                 <h5 className="section-subtitle">Results & Impact</h5>
                 <ul className="results-list">
