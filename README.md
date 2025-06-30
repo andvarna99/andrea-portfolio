@@ -5,7 +5,6 @@ A modern, elegant portfolio website showcasing full-stack software engineering s
 ## 🎨 Design Features
 - **Feminine Color Palette**: Blush pink, lavender, and sage green with professional grays
 - **Modern Animations**: Smooth transitions and hover effects
-- **Responsive Design**: Beautiful on all devices
 - **Professional Layout**: Clean, organized sections highlighting technical expertise
 
 ## 🛠️ Technical Stack
@@ -15,24 +14,6 @@ A modern, elegant portfolio website showcasing full-stack software engineering s
 - **Build Tool**: Create React App
 - **Deployment**: Vercel
 
-## 🚀 Quick Start
-
-### Development
-```bash
-npm install
-npm start
-```
-
-### Build for Production
-```bash
-npm run build
-```
-
-### Deploy to Vercel
-```bash
-npm install -g vercel
-vercel
-```
 
 ## 📝 Sections
 1. **Hero** - Professional introduction with call-to-action
@@ -47,17 +28,7 @@ vercel
 - Project showcases with technology tags
 - Professional contact form
 - Social media integration
-- Mobile-responsive design
-- SEO-friendly structure
-
-## 📱 Responsive Design
-Optimized for:
-- Desktop (1200px+)
-- Tablet (768px - 1199px)
-- Mobile (< 768px)
 
 ---
 
 **Built with care and attention to detail** ✨
-
-*Ready for deployment to Vercel!*
