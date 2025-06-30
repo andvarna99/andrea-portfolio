@@ -1,0 +1,55 @@
+﻿Andrea Varnado
+ Texas  ●  andrea.h.varnado@gmail.com ●  LinkedIn ●  Github
+
+
+PROFESSIONAL HIGHLIGHTS
+
+
+I'm a frontend-focused software engineer with 2 years of experience building responsive, accessible web apps in React and Rails. I didn’t fall in love with coding because of the tools; I fell in love with what those tools could create. I care about building software that helps people move faster, understand more, or express themselves more freely.
+
+
+Software Engineer I |Elevate Systems (Remote/Hybrid)        May 2023 - Present
+   * Led the redesign and rebuild of an internal CMS for a government agency using Contentful, HAML, SCSS, and Rails which streamlined content workflows and improved maintainability.
+   * Shipped features for an art-tech initiative, balancing creative UX with functional full-stack enhancements.
+   * Designed and implemented multiple full-stack features for a classified document review platform, including custom document viewers built with OpenSeadragon, Turbo Frames, Bootstrap, and Rails which allowed users to visually inspect uploads and streamline content validation.
+   * Delivered clear, well-structured technical reports for stakeholder review (25+ pages), meeting compliance requirements with no revision requests.
+   * Mentored new interns and supported their onboarding through paired programming and async feedback.
+   * Regularly interfaced with clients and military officials to present engineering progress and clarify project scope.
+
+
+Freelance Developer | Self-Initiated Projects        Ongoing
+   * Artzip: Contributed to a photo stitching web service built in Rails, HAML, SCSS, and Turbo. Implemented a rectification magnifier, theme preview view, debug view, and pop-out navbar. Designed the gallery and checkout UIs and enforced permission logic to prevent premature image access.
+   * Barbenheimer Dress-Up: A nostalgic web game built with React and custom CSS. Players can drag-and-drop outfits onto characters, select themed backgrounds, and save their creations. Designed mobile-first, lazy-loaded assets for performance.
+   * Local Political Campaign Website: Designed and deployed a full campaign site for a local city council race (won!). Used Webflow with custom components, responsive design, and CMS-driven content editing for flexibility.
+
+
+TECHNICAL SKILLS
+
+
+Languages: JavaScript, Ruby, HTML5, CSS3, TypeScript (familiar)
+
+
+Frameworks: React, Ruby on Rails, Turbo, Bootstrap, HAML
+
+
+Tools: GitHub, Contentful, Webflow, Figma, Netlify, PostgreSQL, Microsoft 365, Google Suite, Cursor, Loveable
+
+
+Approaches: Responsive Design, Agile, Unit Testing, Pair Programming
+
+
+EDUCATION
+
+
+Codeup Bootcamp        Nov 2022 - May 2023
+670+ hours in JavaScript, Ruby on Rails, MySQL, agile development, and UI/UX best practices
+
+
+University of North Texas        Aug 2017 - Dec 2019
+B.A. coursework in Classical Vocal Performance
+
+
+INTERESTS
+
+
+UI/UX design, open-ended creative projects, singing, gardening
