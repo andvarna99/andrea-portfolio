@@ -339,7 +339,7 @@ const App: React.FC = () => {
                       View Details
                     </Button>
                     <Button 
-                        className="btn-custom btn-outline-custom"
+                        className="btn-custom btn-outline-custom my-2"
                         href="https://elevatesystems.com/"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -377,7 +377,7 @@ const App: React.FC = () => {
                       View Details
                     </Button>
                     <Button 
-                        className="btn-custom btn-outline-custom"
+                        className="btn-custom btn-outline-custom my-2"
                         href="https://github.com/andvarna99/"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -415,7 +415,7 @@ const App: React.FC = () => {
                       View Details
                     </Button>
                     <Button 
-                        className="btn-custom btn-outline-custom"
+                        className="btn-custom btn-outline-custom my-2"
                         href="https://artzip.com/"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -451,7 +451,7 @@ const App: React.FC = () => {
                       View Details
                     </Button>
                     <Button 
-                        className="btn-custom btn-outline-custom"
+                        className="btn-custom btn-outline-custom my-2"
                         href="https://github.com/andvarna99/barbenheimer_wardrobe_game"
                         target="_blank"
                         rel="noopener noreferrer"
