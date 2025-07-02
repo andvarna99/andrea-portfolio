@@ -304,6 +304,7 @@ const App: React.FC = () => {
                 <span className="tech-tag">GitHub</span>
                 <span className="tech-tag">GitLab</span>
                 <span className="tech-tag">Cursor</span>
+                <span className="tech-tag">Vercel</span>
               </div>
             </div>
           </div>
