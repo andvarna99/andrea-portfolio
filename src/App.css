@@ -617,7 +617,10 @@ p {
   .hero-subtitle {
     font-size: 1.25rem;
   }
-  
+
+  #about-tabs {
+    width: 75% !important;
+  }
   .section-title {
     font-size: 2.2rem;
   }
@@ -631,6 +634,10 @@ p {
   }
   
   @media (min-width: 576px) and (max-width: 991px) {
+    #about-tabs {
+      width: 100% !important;
+    }
+
     .projects-grid {
       grid-template-columns: 1fr;
     }

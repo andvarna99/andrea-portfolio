@@ -291,22 +291,22 @@ const App: React.FC = () => {
         </Container>
       </section>
 
-      <section id="about-tabs" className="py-4 about-tabs-section w-75 mx-auto">
+      <section id="about-tabs" className="py-4 about-tabs-section mx-auto">
         <Row>
           <Col>
             <Tabs
                 id="about-me-tabs"
                 activeKey={key}
                 onSelect={(k) => setKey(k as string)}
-                className="about-tabs gradient-text code-block rounded-top-1"
+                className="about-tabs gradient-text code-block rounded-top-1 p-0"
             >
               <Tab eventKey="journey" title={
                 <>
                   <IconWrapper Icon={FaRoad} className="me-2" />
-                  My Journey
+                  Journey
                 </>
-              } className="journey-tab p-3 rounded-bottom-1">
-                <div className="tab-content code-block">
+              } className="journey-tab p-0 rounded-bottom-1">
+                <div className="tab-content px-2 code-block">
                   <p>
                     My journey to tech actually began with a background in Classical Vocal Performance
                     at UNT. I believe my foundation in performing gives me a unique set of skills as a
@@ -327,7 +327,7 @@ const App: React.FC = () => {
               <Tab eventKey="philosophy" title={
                 <>
                   <IconWrapper Icon={FaCogs} className="me-2" />
-                  My Philosophy
+                  Philosophy
                 </>
               } className="philosophy-tab p-3">
                 <div className="tab-content code-block p-2 rounded">
